@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="https://github.com/ant87/Light/blob/master/" href="light-webstart" spec="1.0+">
+    <information>
+        <title>Light</title>
+        <vendor>czd9cv</vendor>
+        <homepage href=""/>
+        <description>Light</description>
+        <description kind="short">Light</description>
+        
+        
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.5+"/>
+        <jar href="Light.jar" main="true"/>
+        
+        
+    <jar href="lib/swing-layout-1.0.4.jar"/>
+</resources>
+    <application-desc main-class="light.GUI">
+        
+    </application-desc>
+</jnlp>
